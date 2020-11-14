@@ -16,6 +16,19 @@ function Home() {
 					</p>
 				</div>
 			</Jumbotron>
+
+			<div className="container">
+				<div className="row">
+					<div className="col-12 col-sm-4 text-center">
+						<img
+							className="img-thumbnail rounded"
+							src={"img/Adeoluwa_Adeboye.jpg"}
+							alt="Adeoluwa Adeboye"
+							width="250px"
+						></img>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }

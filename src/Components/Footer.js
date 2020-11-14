@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Footer() {
 	return (
-		<div className="container">
-			<div className="footer fixed-bottom p-2">
+		<div className="footer p-2 mt-3">
+			<div className="container">
 				<div className="row text-center">
 					<div className="col-12 col-sm-4">
 						<h5>Adeoluwa Adeboye</h5>
