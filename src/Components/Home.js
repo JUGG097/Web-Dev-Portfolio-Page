@@ -38,8 +38,8 @@ function Home() {
 						</p>
 
 						<p>
-							My present tech stack is HTML, CSS, JS, Bootstrap
-							and React.js, check my projects{" "}
+							My Tech Stack: HTML, CSS, JS, Bootstrap and
+							React.js, checkout my projects{" "}
 							<Link to="/projects">here</Link>.
 						</p>
 
