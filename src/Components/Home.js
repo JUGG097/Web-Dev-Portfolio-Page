@@ -1,57 +1,62 @@
 import React from "react";
 import { Jumbotron } from "reactstrap";
-import { Link } from "react-router-dom";
+
+import { faFileCode, faRocket } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {
 	return (
 		<div>
 			<Jumbotron style={{ backgroundColor: "#98C1D9" }} className="mb-0">
 				<div className="container">
-					<h2 className="display-5">Adeoluwa Adeboye</h2>
-					<p className="lead">
-						Website Development | Website Deployment
-					</p>
-					<p>
-						<span className="badge badge-pill badge-primary">
-							HTML
-						</span>
-						| CSS | JS| React.js | Bootstrap | ReactStrap | Font
-						Awesome | Netlify
-					</p>
-				</div>
-			</Jumbotron>
-
-			<div className="wrapper-color">
-				<div className="container">
 					<div className="row">
-						<div className="col-12 col-sm-4 text-center mt-2">
+						<div className="col-12 col-sm-4 text-center">
 							<img
-								className="img-thumbnail rounded align-self-center"
-								src="img/Adeoluwa_Adeboye.jpg"
+								className="img-fluid rounded align-self-center"
+								src="img/Adeoluwa_Adeboye_Transparent.png"
 								alt="Adeoluwa Adeboye"
 								width="250px"
 							></img>
 						</div>
-						<div className="col-12 col-sm-8 text-center mt-2 font-weight-bold">
-							<p className="">
-								My name is Adeoluwa Adeboye, I am active in the
-								Web Development and Web Deployment ecosystem
-								(geeks!!!).
-							</p>
 
-							<p className="">
-								My Tech Stack: HTML, CSS, JS, Bootstrap and
-								React.js, checkout my projects{" "}
-								<Link to="/projects">here</Link>.
+						<div className="col-12 col-sm-8 text-center my-auto">
+							<h2 className="display-5 my-color">
+								Adeoluwa Adeboye
+							</h2>
+							<p className="lead">
+								Website Development | Website Deployment
 							</p>
-
-							<p className="more-font">
-								I also write articles occasionaly on Tech
-								related topics and trends using platforms like
-								Dev.to and Medium, check out my articles{" "}
-								<Link to="/articles">here</Link>.
+							<p>
+								<span className="badge badge-pill badge-primary">
+									HTML
+								</span>
+								| CSS | JS| React.js | Bootstrap | ReactStrap |
+								Font Awesome | Netlify
 							</p>
 						</div>
+					</div>
+				</div>
+			</Jumbotron>
+
+			<div className="container">
+				<div className="row mt-3">
+					<div className="col-12 col-sm-6 text-center">
+						<FontAwesomeIcon
+							icon={faFileCode}
+							size="3x"
+							className="my-color"
+						/>
+						<h4 className="mt-2">Web Development</h4>
+						<p></p>
+					</div>
+					<div className="col-12 col-sm-6 text-center">
+						<FontAwesomeIcon
+							icon={faRocket}
+							size="3x"
+							className="my-color"
+						/>
+						<h4 className="mt-2">Web Deployment</h4>
+						<p></p>
 					</div>
 				</div>
 			</div>
