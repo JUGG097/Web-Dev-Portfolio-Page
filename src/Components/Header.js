@@ -17,7 +17,7 @@ function Header() {
 		<div>
 			<Navbar expand="md">
 				<div className="container">
-					<NavbarBrand href="/">Adeoluwa Adeboye</NavbarBrand>
+					<NavbarBrand href="/">{"< AA />"}</NavbarBrand>
 					<NavbarToggler onClick={toggle} style={{ Color: "red" }} />
 					<Collapse isOpen={isOpen} navbar>
 						<Nav className="ml-auto text-center" navbar>

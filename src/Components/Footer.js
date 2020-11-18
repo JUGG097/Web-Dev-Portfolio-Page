@@ -7,7 +7,7 @@ function Footer() {
 			<div className="container">
 				<div className="row text-center">
 					<div className="col-12 col-sm-4">
-						<h5>Adeoluwa Adeboye</h5>
+						<h5> {"< AA />"} </h5>
 						<p>Web Development | Web Deployment </p>
 					</div>
 					<div className="col-12 col-sm-4">

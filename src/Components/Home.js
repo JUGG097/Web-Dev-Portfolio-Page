@@ -1,7 +1,10 @@
 import React from "react";
 import { Jumbotron } from "reactstrap";
 
-import { faFileCode, faRocket } from "@fortawesome/free-solid-svg-icons";
+import {
+	faLaptopCode,
+	faCloudUploadAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {
@@ -42,31 +45,42 @@ function Home() {
 				<div className="row mt-3 p-3 text-center">
 					<div className="col-12 col-sm-6">
 						<FontAwesomeIcon
-							icon={faFileCode}
+							icon={faLaptopCode}
 							size="2x"
 							className="my-color"
 						/>
-						<h4 className="mt-2 p-2">Web Development</h4>
+						<h5 className="mt-2 p-2">Web Development</h5>
 
 						<p>
 							Creation of static pages like Landing Page, Online
-							Portofolio and dynamic web application. <br></br>
+							Portofolio, Dynamic and API-driven web application.{" "}
+							<br></br>
 							Turning Website Designs and Mockups into Code.
 						</p>
 					</div>
 					<div className="col-12 col-sm-6">
 						<FontAwesomeIcon
-							icon={faRocket}
+							icon={faCloudUploadAlt}
 							size="2x"
 							className="my-color"
 						/>
-						<h4 className="mt-2 p-2">Web Deployment</h4>
+						<h5 className="mt-2 p-2">Web Deployment</h5>
 						<p>
-							Deploying web development codes to the cloud.
+							Deploying web development codes to the cloud
+							platforms like GitHub, Netlify and Heroku.
 							<br></br>
 							Hosting static webpage code on the cloud and
-							WorldWideWeb
+							WorldWideWeb.
 						</p>
+					</div>
+				</div>
+
+				<div className="row">
+					<div className="col-12 text-center">
+						<h4 className="my-color font-weight-bold">
+							Send Message
+						</h4>
+						<p>A Form goes here</p>
 					</div>
 				</div>
 			</div>
