@@ -27,8 +27,8 @@ function Header() {
 								</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink className="nav-link" to="/articles">
-									Articles
+								<NavLink className="nav-link" to="">
+									Contacts
 								</NavLink>
 							</NavItem>
 							<NavItem>

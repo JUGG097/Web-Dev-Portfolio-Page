@@ -15,9 +15,6 @@ function Footer() {
 						<Link to="/home">
 							<p>Home</p>
 						</Link>
-						<Link to="/articles">
-							<p>Articles</p>
-						</Link>
 						<Link to="/projects">
 							<p>Projects</p>
 						</Link>

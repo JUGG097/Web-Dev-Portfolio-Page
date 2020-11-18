@@ -47,7 +47,12 @@ function Home() {
 							className="my-color"
 						/>
 						<h4 className="mt-2 p-2">Web Development</h4>
-						<p></p>
+
+						<p>
+							Creation of static pages like Landing Page, Online
+							Portofolio and dynamic web application. <br></br>
+							Turning Website Designs and Mockups into Code.
+						</p>
 					</div>
 					<div className="col-12 col-sm-6">
 						<FontAwesomeIcon
@@ -56,7 +61,12 @@ function Home() {
 							className="my-color"
 						/>
 						<h4 className="mt-2 p-2">Web Deployment</h4>
-						<p></p>
+						<p>
+							Deploying web development codes to the cloud.
+							<br></br>
+							Hosting static webpage code on the cloud and
+							WorldWideWeb
+						</p>
 					</div>
 				</div>
 			</div>
