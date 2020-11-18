@@ -39,23 +39,23 @@ function Home() {
 			</Jumbotron>
 
 			<div className="container">
-				<div className="row mt-3">
-					<div className="col-12 col-sm-6 text-center">
+				<div className="row mt-3 p-3 text-center">
+					<div className="col-12 col-sm-6">
 						<FontAwesomeIcon
 							icon={faFileCode}
-							size="3x"
+							size="2x"
 							className="my-color"
 						/>
-						<h4 className="mt-2">Web Development</h4>
+						<h4 className="mt-2 p-2">Web Development</h4>
 						<p></p>
 					</div>
-					<div className="col-12 col-sm-6 text-center">
+					<div className="col-12 col-sm-6">
 						<FontAwesomeIcon
 							icon={faRocket}
-							size="3x"
+							size="2x"
 							className="my-color"
 						/>
-						<h4 className="mt-2">Web Deployment</h4>
+						<h4 className="mt-2 p-2">Web Deployment</h4>
 						<p></p>
 					</div>
 				</div>
