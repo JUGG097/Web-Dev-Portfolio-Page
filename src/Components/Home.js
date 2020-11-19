@@ -10,8 +10,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Home() {
 	return (
 		<div>
-			<Jumbotron style={{ backgroundColor: "#98C1D9" }} className="mb-0">
-				<div className="container">
+			<Jumbotron style={{ backgroundColor: "#98C1D9" }}>
+				<div className="container mt-3">
 					<div className="row">
 						<div className="col-12 col-sm-4 text-center">
 							<img

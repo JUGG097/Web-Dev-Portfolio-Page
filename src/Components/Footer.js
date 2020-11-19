@@ -22,10 +22,10 @@ function Footer() {
 					<div className="col-12 col-sm-4">
 						<h5>Contacts</h5>
 						<a href="jj">
-							<p>Whatsapp</p>
+							<p>Tel</p>
 						</a>
 						<a href="jj">
-							<p>Twitter</p>
+							<p>Whatsapp</p>
 						</a>
 						<a href="jj">
 							<p>LinkedIn</p>

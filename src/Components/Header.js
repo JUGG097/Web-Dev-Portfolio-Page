@@ -6,6 +6,10 @@ import {
 	NavbarBrand,
 	Nav,
 	NavItem,
+	UncontrolledDropdown,
+	DropdownToggle,
+	DropdownItem,
+	DropdownMenu,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
@@ -15,7 +19,7 @@ function Header() {
 	const toggle = () => setIsOpen(!isOpen);
 	return (
 		<div>
-			<Navbar expand="md">
+			<Navbar expand="md fixed-top">
 				<div className="container">
 					<NavbarBrand href="/">{"< AA />"}</NavbarBrand>
 					<NavbarToggler onClick={toggle} style={{ Color: "red" }} />
@@ -27,9 +31,18 @@ function Header() {
 								</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink className="nav-link" to="">
-									Contacts
-								</NavLink>
+								<UncontrolledDropdown nav inNavbar>
+									<DropdownToggle nav caret>
+										Contact
+									</DropdownToggle>
+									<DropdownMenu className="text-center">
+										<DropdownItem>Tel</DropdownItem>
+										<DropdownItem>Whatsapp</DropdownItem>
+										{/* <DropdownItem divider /> */}
+										<DropdownItem>LinkedIn</DropdownItem>
+										<DropdownItem>GitHub</DropdownItem>
+									</DropdownMenu>
+								</UncontrolledDropdown>
 							</NavItem>
 							<NavItem>
 								<NavLink className="nav-link" to="/projects">
