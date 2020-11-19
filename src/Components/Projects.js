@@ -5,7 +5,7 @@ function Projects() {
 	return (
 		<div>
 			<Jumbotron style={{ backgroundColor: "#98C1D9" }}>
-				<div className="container">
+				<div className="container mt-3">
 					<h2 className="display-5">My Projects</h2>
 					<p className="lead">Projects related to Web Development</p>
 				</div>

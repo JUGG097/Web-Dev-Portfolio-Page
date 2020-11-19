@@ -1,11 +1,36 @@
 import React from "react";
-import { Jumbotron } from "reactstrap";
+import { Jumbotron, Form, FormGroup, Label, Input } from "reactstrap";
 
 import {
 	faLaptopCode,
 	faCloudUploadAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+const SubmitForm = () => {
+	return (
+		<Form>
+			<FormGroup>
+				<Label for="exampleEmail">Email</Label>
+				<Input
+					type="email"
+					name="email"
+					id="exampleEmail"
+					placeholder="with a placeholder"
+				/>
+			</FormGroup>
+			<FormGroup>
+				<Label for="examplePassword">Password</Label>
+				<Input
+					type="password"
+					name="password"
+					id="examplePassword"
+					placeholder="password placeholder"
+				/>
+			</FormGroup>
+		</Form>
+	);
+};
 
 function Home() {
 	return (
@@ -81,6 +106,9 @@ function Home() {
 							Send Message
 						</h4>
 						<p>A Form goes here</p>
+					</div>
+					<div className="col-12">
+						<SubmitForm />
 					</div>
 				</div>
 			</div>
