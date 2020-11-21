@@ -26,7 +26,9 @@ const SubmitForm = () => {
 function Home() {
 	return (
 		<div>
-			<Jumbotron style={{ backgroundColor: "#98C1D9" }}>
+			<Jumbotron
+				style={{ backgroundColor: "#98C1D9", paddingTop: "100px" }}
+			>
 				<div className="container mt-3">
 					<div className="row">
 						<div className="col-12 col-sm-4 text-center">

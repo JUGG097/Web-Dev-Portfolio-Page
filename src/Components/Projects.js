@@ -4,7 +4,9 @@ import { Jumbotron } from "reactstrap";
 function Projects() {
 	return (
 		<div>
-			<Jumbotron style={{ backgroundColor: "#98C1D9" }}>
+			<Jumbotron
+				style={{ backgroundColor: "#98C1D9", paddingTop: "100px" }}
+			>
 				<div className="container mt-3">
 					<h2 className="display-5">My Projects</h2>
 					<p className="lead">Projects related to Web Development</p>
