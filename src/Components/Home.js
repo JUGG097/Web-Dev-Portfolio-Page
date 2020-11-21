@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Form, FormGroup, Label, Input } from "reactstrap";
+import { Jumbotron, Form, FormGroup, Label, Input, Button } from "reactstrap";
 
 import {
 	faLaptopCode,
@@ -11,23 +11,14 @@ const SubmitForm = () => {
 	return (
 		<Form>
 			<FormGroup>
-				<Label for="exampleEmail">Email</Label>
 				<Input
-					type="email"
-					name="email"
-					id="exampleEmail"
-					placeholder="with a placeholder"
+					type="textarea"
+					name="message"
+					id="exampmessageleEmail"
+					placeholder="Type in message"
 				/>
 			</FormGroup>
-			<FormGroup>
-				<Label for="examplePassword">Password</Label>
-				<Input
-					type="password"
-					name="password"
-					id="examplePassword"
-					placeholder="password placeholder"
-				/>
-			</FormGroup>
+			<Button>Submit</Button>
 		</Form>
 	);
 };
@@ -100,14 +91,13 @@ function Home() {
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row mt-2">
 					<div className="col-12 text-center">
 						<h4 className="my-color font-weight-bold">
 							Send Message
 						</h4>
-						<p>A Form goes here</p>
 					</div>
-					<div className="col-12">
+					<div className="col-12 text-center">
 						<SubmitForm />
 					</div>
 				</div>
