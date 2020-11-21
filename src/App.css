@@ -21,9 +21,11 @@
 
 .footer {
   background-color: #3D5A80;
-  color: #c39793;
 }
 
+.footer h5{
+  color:  #c39793;
+}
 
 .my-color {
   color: #966367;

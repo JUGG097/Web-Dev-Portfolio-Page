@@ -8,8 +8,10 @@ function Projects() {
 				style={{ backgroundColor: "#98C1D9", paddingTop: "100px" }}
 			>
 				<div className="container mt-3">
-					<h2 className="display-5">My Projects</h2>
-					<p className="lead">Projects related to Web Development</p>
+					<h2 className="display-5 my-color">My Projects</h2>
+					<p className="lead">
+						Projects related to Web Development and Deployment
+					</p>
 				</div>
 			</Jumbotron>
 
@@ -23,14 +25,18 @@ function Projects() {
 						></img>
 					</div>
 					<div className="col-12 col-sm-8 text-center mt-2">
-						<h4>Project 1 Title</h4>
+						<h4 className="my-color font-weight-bold">
+							Angelo Jerseys
+						</h4>
 						<p>Content</p>
 					</div>
 				</div>
 
 				<div className="row mt-3">
 					<div className="col-12 order-last col-sm-8 text-center mt-2">
-						<h4>Project 2 Title</h4>
+						<h4 className="my-color font-weight-bold">
+							Nigeria Covid-19 Cases Dashboard
+						</h4>
 						<p>Content</p>
 					</div>
 					<div className="col-12 col-sm-4 text-center order-first order-sm-last">
@@ -51,7 +57,9 @@ function Projects() {
 						></img>
 					</div>
 					<div className="col-12 col-sm-8 text-center mt-2">
-						<h4>Project 1 Title</h4>
+						<h4 className="my-color font-weight-bold">
+							Simple Web Calculator
+						</h4>
 						<p>Content</p>
 					</div>
 				</div>
