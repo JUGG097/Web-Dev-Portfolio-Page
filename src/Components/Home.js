@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Form, FormGroup, Label, Input, Button } from "reactstrap";
+import { Jumbotron, Form, FormGroup, Input, Button } from "reactstrap";
 
 import {
 	faLaptopCode,
