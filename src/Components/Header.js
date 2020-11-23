@@ -19,7 +19,7 @@ function Header() {
 	const toggle = () => setIsOpen(!isOpen);
 	return (
 		<div>
-			<Navbar expand="md fixed-top">
+			<Navbar expand="md fixed-top" className="font-weight-bold">
 				<div className="container">
 					<NavbarBrand href="/">{"< AA />"}</NavbarBrand>
 					<NavbarToggler onClick={toggle} style={{ Color: "red" }} />

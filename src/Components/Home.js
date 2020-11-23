@@ -4,6 +4,14 @@ import {
 	faLaptopCode,
 	faCloudUploadAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+	faHtml5,
+	faCss3Alt,
+	faJsSquare,
+	faReact,
+	faBootstrap,
+	faFontAwesome,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FormEmail from "./Form";
 
@@ -33,10 +41,40 @@ function Home() {
 							</p>
 							<p>
 								<span className="badge badge-pill badge-primary">
-									HTML
-								</span>
-								| CSS | JS| React.js | Bootstrap | ReactStrap |
-								Font Awesome | Netlify
+									<FontAwesomeIcon icon={faHtml5} /> HTML
+								</span>{" "}
+								|{" "}
+								<span className="badge badge-pill badge-warning">
+									<FontAwesomeIcon icon={faCss3Alt} /> CSS
+								</span>{" "}
+								|{" "}
+								<span className="badge badge-pill badge-primary">
+									<FontAwesomeIcon icon={faJsSquare} /> JS
+								</span>{" "}
+								|{" "}
+								<span className="badge badge-pill badge-info">
+									<FontAwesomeIcon icon={faReact} /> React.js
+								</span>{" "}
+								|{" "}
+								<span className="badge badge-pill badge-dark">
+									<FontAwesomeIcon icon={faBootstrap} />{" "}
+									Bootstrap
+								</span>{" "}
+								|{" "}
+								<span className="badge badge-pill badge-info">
+									<FontAwesomeIcon icon={faReact} />{" "}
+									ReactStrap
+								</span>{" "}
+								|{" "}
+								<span className="badge badge-pill badge-primary">
+									<FontAwesomeIcon icon={faFontAwesome} />{" "}
+									FontAwesome
+								</span>{" "}
+								|{" "}
+								<span className="badge badge-pill badge-danger">
+									<FontAwesomeIcon icon={faCloudUploadAlt} />{" "}
+									Netlify
+								</span>{" "}
 							</p>
 						</div>
 					</div>
