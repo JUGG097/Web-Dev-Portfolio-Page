@@ -11,6 +11,9 @@
   color: #c39793;
 }
 
+.navbar .nav-link:hover {
+  opacity: 0.5;
+}
 .navbar .navbar-toggler{
   border-color: #c39793;
 } 

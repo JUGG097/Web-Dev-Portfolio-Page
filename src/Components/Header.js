@@ -12,6 +12,18 @@ import {
 	DropdownMenu,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faLaptopHouse,
+	faIdCard,
+	faCodeBranch,
+	faPhoneAlt,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+	faWhatsappSquare,
+	faLinkedin,
+	faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Header() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -27,12 +39,18 @@ function Header() {
 						<Nav className="ml-auto text-center" navbar>
 							<NavItem>
 								<NavLink className="nav-link" to="/home">
+									<FontAwesomeIcon
+										icon={faLaptopHouse}
+									></FontAwesomeIcon>{" "}
 									Home
 								</NavLink>
 							</NavItem>
 							<NavItem>
 								<UncontrolledDropdown nav inNavbar>
 									<DropdownToggle nav caret>
+										<FontAwesomeIcon
+											icon={faIdCard}
+										></FontAwesomeIcon>{" "}
 										Contact
 									</DropdownToggle>
 									<DropdownMenu className="text-center">
@@ -42,6 +60,10 @@ function Header() {
 												target="_blank"
 												rel="noopener noreferrer"
 											>
+												<FontAwesomeIcon
+													icon={faPhoneAlt}
+													color={"black"}
+												></FontAwesomeIcon>{" "}
 												Tel
 											</a>
 										</DropdownItem>
@@ -51,6 +73,10 @@ function Header() {
 												target="_blank"
 												rel="noopener noreferrer"
 											>
+												<FontAwesomeIcon
+													icon={faWhatsappSquare}
+													color={"green"}
+												></FontAwesomeIcon>{" "}
 												Whatsapp
 											</a>
 										</DropdownItem>
@@ -61,6 +87,9 @@ function Header() {
 												target="_blank"
 												rel="noopener noreferrer"
 											>
+												<FontAwesomeIcon
+													icon={faLinkedin}
+												></FontAwesomeIcon>{" "}
 												LinkedIn
 											</a>
 										</DropdownItem>
@@ -70,6 +99,10 @@ function Header() {
 												target="_blank"
 												rel="noopener noreferrer"
 											>
+												<FontAwesomeIcon
+													icon={faGithub}
+													color={"black"}
+												></FontAwesomeIcon>{" "}
 												GitHub
 											</a>
 										</DropdownItem>
@@ -78,6 +111,9 @@ function Header() {
 							</NavItem>
 							<NavItem>
 								<NavLink className="nav-link" to="/projects">
+									<FontAwesomeIcon
+										icon={faCodeBranch}
+									></FontAwesomeIcon>{" "}
 									Projects
 								</NavLink>
 							</NavItem>
