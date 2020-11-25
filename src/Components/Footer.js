@@ -13,7 +13,7 @@ function Footer() {
 					<div className="col-12 col-sm-4">
 						<h5>Quick Links</h5>
 						<Link to="/home">
-							<p>Home</p>
+							<p className="mt-0 mb-0">Home</p>
 						</Link>
 						<Link to="/projects">
 							<p>Projects</p>
@@ -21,22 +21,38 @@ function Footer() {
 					</div>
 					<div className="col-12 col-sm-4">
 						<h5>Contacts</h5>
-						<a href="jj">
-							<p>Tel</p>
+						<a
+							href="tel:+2348102008245"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<p className="mt-0 mb-0">Tel</p>
 						</a>
-						<a href="jj">
-							<p>Whatsapp</p>
+						<a
+							href="https://wa.me/+2348102008245?text=I'm%20interested%20in%20Web-Development"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<p className="mt-0 mb-0">Whatsapp</p>
 						</a>
-						<a href="jj">
-							<p>LinkedIn</p>
+						<a
+							href="https://www.linkedin.com/in/adeoluwa-adeboye-051057146/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<p className="mt-0 mb-0">LinkedIn</p>
 						</a>
-						<a href="jj">
-							<p>GitHub</p>
+						<a
+							href="https://github.com/JUGG097"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							GitHub
 						</a>
 					</div>
 				</div>
 
-				<div className="row text-center">
+				<div className="row text-center mt-2 font-weight-bold">
 					<div className="col-12">
 						<p>Copyright &copy; 2020 | Adeoluwa</p>
 					</div>
