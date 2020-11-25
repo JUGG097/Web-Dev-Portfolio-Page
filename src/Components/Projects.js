@@ -1,11 +1,16 @@
 import React from "react";
-import { Jumbotron } from "reactstrap";
+import { Jumbotron, Breadcrumb, BreadcrumbItem } from "reactstrap";
+import { NavLink } from "react-router-dom";
 
 function Projects() {
 	return (
 		<div>
 			<Jumbotron
-				style={{ backgroundColor: "#98C1D9", paddingTop: "100px" }}
+				style={{
+					backgroundColor: "#98C1D9",
+					paddingTop: "100px",
+					marginBottom: "0px",
+				}}
 			>
 				<div className="container mt-3">
 					<h2 className="display-5 my-color">My Projects</h2>
@@ -14,6 +19,13 @@ function Projects() {
 					</p>
 				</div>
 			</Jumbotron>
+
+			<Breadcrumb className="mt-0">
+				<BreadcrumbItem>
+					<NavLink to="/home">Home</NavLink>
+				</BreadcrumbItem>
+				<BreadcrumbItem active>Projects</BreadcrumbItem>
+			</Breadcrumb>
 
 			<div className="container">
 				<div className="row">
@@ -24,7 +36,7 @@ function Projects() {
 							alt="PlaceHolder"
 						></img>
 					</div>
-					<div className="col-12 col-sm-8 text-center mt-2">
+					<div className="col-12 col-sm-8 text-center mt-2 my-auto">
 						<h4 className="my-color font-weight-bold">
 							Angelo Jerseys
 						</h4>
@@ -51,7 +63,7 @@ function Projects() {
 				</div>
 
 				<div className="row mt-3">
-					<div className="col-12 order-last col-sm-8 text-center mt-2">
+					<div className="col-12 order-last col-sm-8 text-center mt-2 my-auto">
 						<h4 className="my-color font-weight-bold">
 							Nigeria Covid-19 Cases Dashboard
 						</h4>
@@ -92,7 +104,7 @@ function Projects() {
 							alt="PlaceHolder"
 						></img>
 					</div>
-					<div className="col-12 col-sm-8 text-center mt-2">
+					<div className="col-12 col-sm-8 text-center mt-2 my-auto">
 						<h4 className="my-color font-weight-bold">
 							Simple Web Calculator
 						</h4>
