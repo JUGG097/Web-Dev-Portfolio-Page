@@ -36,11 +36,43 @@ function Header() {
 										Contact
 									</DropdownToggle>
 									<DropdownMenu className="text-center">
-										<DropdownItem>Tel</DropdownItem>
-										<DropdownItem>Whatsapp</DropdownItem>
+										<DropdownItem>
+											<a
+												href="tel:+2348102008245"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Tel
+											</a>
+										</DropdownItem>
+										<DropdownItem>
+											<a
+												href="https://wa.me/+2348102008245?text=I'm%20interested%20in%20Web-Development"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Whatsapp
+											</a>
+										</DropdownItem>
 										{/* <DropdownItem divider /> */}
-										<DropdownItem>LinkedIn</DropdownItem>
-										<DropdownItem>GitHub</DropdownItem>
+										<DropdownItem>
+											<a
+												href="https://www.linkedin.com/in/adeoluwa-adeboye-051057146/"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												LinkedIn
+											</a>
+										</DropdownItem>
+										<DropdownItem>
+											<a
+												href="https://github.com/JUGG097"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												GitHub
+											</a>
+										</DropdownItem>
 									</DropdownMenu>
 								</UncontrolledDropdown>
 							</NavItem>
