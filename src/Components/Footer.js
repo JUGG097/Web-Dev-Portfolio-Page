@@ -1,5 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faLaptopHouse,
+	faCodeBranch,
+	faPhoneAlt,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+	faWhatsappSquare,
+	faLinkedin,
+	faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
 	return (
@@ -13,10 +24,20 @@ function Footer() {
 					<div className="col-12 col-sm-4">
 						<h5>Quick Links</h5>
 						<Link to="/home">
-							<p className="mt-0 mb-0">Home</p>
+							<p className="mt-0 mb-0">
+								<FontAwesomeIcon
+									icon={faLaptopHouse}
+								></FontAwesomeIcon>{" "}
+								Home
+							</p>
 						</Link>
 						<Link to="/projects">
-							<p>Projects</p>
+							<p>
+								<FontAwesomeIcon
+									icon={faCodeBranch}
+								></FontAwesomeIcon>{" "}
+								Projects
+							</p>
 						</Link>
 					</div>
 					<div className="col-12 col-sm-4">
@@ -26,28 +47,48 @@ function Footer() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<p className="mt-0 mb-0">Tel</p>
+							<p className="mt-0 mb-0">
+								<FontAwesomeIcon
+									icon={faPhoneAlt}
+								></FontAwesomeIcon>{" "}
+								Tel
+							</p>
 						</a>
 						<a
 							href="https://wa.me/+2348102008245?text=I'm%20interested%20in%20Web-Development"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<p className="mt-0 mb-0">Whatsapp</p>
+							<p className="mt-0 mb-0">
+								<FontAwesomeIcon
+									icon={faWhatsappSquare}
+								></FontAwesomeIcon>{" "}
+								Whatsapp
+							</p>
 						</a>
 						<a
 							href="https://www.linkedin.com/in/adeoluwa-adeboye-051057146/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<p className="mt-0 mb-0">LinkedIn</p>
+							<p className="mt-0 mb-0">
+								<FontAwesomeIcon
+									icon={faLinkedin}
+								></FontAwesomeIcon>{" "}
+								LinkedIn
+							</p>
 						</a>
 						<a
 							href="https://github.com/JUGG097"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							GitHub
+							<p className="mt-0 mb-0">
+								<FontAwesomeIcon
+									icon={faGithub}
+								></FontAwesomeIcon>{" "}
+								GitHub
+							</p>
 						</a>
 					</div>
 				</div>

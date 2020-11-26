@@ -3,8 +3,9 @@
 }
 
 .navbar .navbar-brand {
-  /* color: #EE6C4D; */
+  
   color: #c39793;
+  /* color: #FAC05E potential option*/
 }
 
 .navbar .nav-link{
@@ -30,6 +31,13 @@
   color:  #c39793;
 }
 
+.footer p{
+  color: black;
+}
+
+.footer p:hover {
+  opacity: 0.6;
+}
 .my-color {
   color: #966367;
  
