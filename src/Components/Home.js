@@ -15,6 +15,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FormEmail from "./Form";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 function Home() {
 	return (
@@ -24,7 +25,7 @@ function Home() {
 			>
 				<div className="container mt-3">
 					<div className="row">
-						<Fade left big>
+						<Zoom>
 							<div className="col-12 col-sm-4 text-center">
 								<img
 									className="img-fluid rounded align-self-center"
@@ -33,9 +34,9 @@ function Home() {
 									width="250px"
 								></img>
 							</div>
-						</Fade>
+						</Zoom>
 
-						<Fade right big>
+						<Zoom>
 							<div className="col-12 col-sm-8 text-center my-auto">
 								<h2 className="display-5 my-color-2">
 									Adeoluwa Adeboye
@@ -84,7 +85,7 @@ function Home() {
 									</span>{" "}
 								</p>
 							</div>
-						</Fade>
+						</Zoom>
 					</div>
 				</div>
 			</Jumbotron>

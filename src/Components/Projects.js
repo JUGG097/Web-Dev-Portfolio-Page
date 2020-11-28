@@ -2,6 +2,7 @@ import React from "react";
 import { Jumbotron, Breadcrumb, BreadcrumbItem } from "reactstrap";
 import { NavLink } from "react-router-dom";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 function Projects() {
 	return (
@@ -13,14 +14,14 @@ function Projects() {
 					marginBottom: "0px",
 				}}
 			>
-				<Fade left big>
+				<Zoom>
 					<div className="container mt-3">
 						<h2 className="display-5 my-color-2">My Projects</h2>
 						<p className="lead">
 							Projects related to Web Development and Deployment
 						</p>
 					</div>
-				</Fade>
+				</Zoom>
 			</Jumbotron>
 
 			<Breadcrumb className="mt-0">
@@ -67,6 +68,14 @@ function Projects() {
 					</Fade>
 				</div>
 
+				<hr
+					style={{
+						color: "floralwhite",
+						backgroundColor: "floralwhite",
+						height: 1,
+					}}
+				/>
+
 				<div className="row mt-3">
 					<Fade bottom>
 						<div className="col-12 order-last col-sm-8 text-center mt-2 my-auto">
@@ -103,6 +112,14 @@ function Projects() {
 						</div>
 					</Fade>
 				</div>
+
+				<hr
+					style={{
+						color: "floralwhite",
+						backgroundColor: "floralwhite",
+						height: 1,
+					}}
+				/>
 
 				<div className="row mt-3">
 					<Fade bottom>
