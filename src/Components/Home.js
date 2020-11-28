@@ -14,6 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FormEmail from "./Form";
+import Fade from "react-reveal/Fade";
 
 function Home() {
 	return (
@@ -23,107 +24,125 @@ function Home() {
 			>
 				<div className="container mt-3">
 					<div className="row">
-						<div className="col-12 col-sm-4 text-center">
-							<img
-								className="img-fluid rounded align-self-center"
-								src="img/Adeoluwa_Adeboye_Transparent.png"
-								alt="Adeoluwa Adeboye"
-								width="250px"
-							></img>
-						</div>
+						<Fade left big>
+							<div className="col-12 col-sm-4 text-center">
+								<img
+									className="img-fluid rounded align-self-center"
+									src="img/Adeoluwa_Adeboye_Transparent.png"
+									alt="Adeoluwa Adeboye"
+									width="250px"
+								></img>
+							</div>
+						</Fade>
 
-						<div className="col-12 col-sm-8 text-center my-auto">
-							<h2 className="display-5 my-color-2">
-								Adeoluwa Adeboye
-							</h2>
-							<p className="lead">
-								Website Development | Website Deployment
-							</p>
-							<p>
-								<span className="badge badge-pill badge-primary">
-									<FontAwesomeIcon icon={faHtml5} /> HTML
-								</span>{" "}
-								|{" "}
-								<span className="badge badge-pill badge-warning">
-									<FontAwesomeIcon icon={faCss3Alt} /> CSS
-								</span>{" "}
-								|{" "}
-								<span className="badge badge-pill badge-primary">
-									<FontAwesomeIcon icon={faJsSquare} /> JS
-								</span>{" "}
-								|{" "}
-								<span className="badge badge-pill badge-info">
-									<FontAwesomeIcon icon={faReact} /> React.js
-								</span>{" "}
-								|{" "}
-								<span className="badge badge-pill badge-dark">
-									<FontAwesomeIcon icon={faBootstrap} />{" "}
-									Bootstrap
-								</span>{" "}
-								|{" "}
-								<span className="badge badge-pill badge-info">
-									<FontAwesomeIcon icon={faReact} />{" "}
-									ReactStrap
-								</span>{" "}
-								|{" "}
-								<span className="badge badge-pill badge-primary">
-									<FontAwesomeIcon icon={faFontAwesome} />{" "}
-									FontAwesome
-								</span>{" "}
-								|{" "}
-								<span className="badge badge-pill badge-danger">
-									<FontAwesomeIcon icon={faCloudUploadAlt} />{" "}
-									Netlify
-								</span>{" "}
-							</p>
-						</div>
+						<Fade right big>
+							<div className="col-12 col-sm-8 text-center my-auto">
+								<h2 className="display-5 my-color-2">
+									Adeoluwa Adeboye
+								</h2>
+								<p className="lead">
+									Website Development | Website Deployment
+								</p>
+								<p>
+									<span className="badge badge-pill badge-primary">
+										<FontAwesomeIcon icon={faHtml5} /> HTML
+									</span>{" "}
+									|{" "}
+									<span className="badge badge-pill badge-warning">
+										<FontAwesomeIcon icon={faCss3Alt} /> CSS
+									</span>{" "}
+									|{" "}
+									<span className="badge badge-pill badge-primary">
+										<FontAwesomeIcon icon={faJsSquare} /> JS
+									</span>{" "}
+									|{" "}
+									<span className="badge badge-pill badge-info">
+										<FontAwesomeIcon icon={faReact} />{" "}
+										React.js
+									</span>{" "}
+									|{" "}
+									<span className="badge badge-pill badge-dark">
+										<FontAwesomeIcon icon={faBootstrap} />{" "}
+										Bootstrap
+									</span>{" "}
+									|{" "}
+									<span className="badge badge-pill badge-info">
+										<FontAwesomeIcon icon={faReact} />{" "}
+										ReactStrap
+									</span>{" "}
+									|{" "}
+									<span className="badge badge-pill badge-primary">
+										<FontAwesomeIcon icon={faFontAwesome} />{" "}
+										FontAwesome
+									</span>{" "}
+									|{" "}
+									<span className="badge badge-pill badge-danger">
+										<FontAwesomeIcon
+											icon={faCloudUploadAlt}
+										/>{" "}
+										Netlify
+									</span>{" "}
+								</p>
+							</div>
+						</Fade>
 					</div>
 				</div>
 			</Jumbotron>
 
 			<div className="container">
 				<div className="row mt-3 p-3 text-center">
-					<div className="col-12 col-sm-6">
-						<FontAwesomeIcon
-							icon={faLaptopCode}
-							size="2x"
-							className="my-color-2"
-						/>
-						<h5 className="mt-2 p-2 my-color-2">Web Development</h5>
+					<Fade bottom>
+						<div className="col-12 col-sm-6">
+							<FontAwesomeIcon
+								icon={faLaptopCode}
+								size="2x"
+								className="my-color-2"
+							/>
+							<h5 className="mt-2 p-2 my-color-2">
+								Web Development
+							</h5>
 
-						<p>
-							Creation of static pages like Landing Page, Online
-							Portofolio, Dynamic and API-driven web application.{" "}
-							<br></br>
-							Turning Website Designs and Mockups into Code.
-						</p>
-					</div>
-					<div className="col-12 col-sm-6">
-						<FontAwesomeIcon
-							icon={faCloudUploadAlt}
-							size="2x"
-							className="my-color-2"
-						/>
-						<h5 className="mt-2 p-2 my-color-2">Web Deployment</h5>
-						<p>
-							Deploying web development codes to the cloud
-							platforms like GitHub, Netlify and Heroku.
-							<br></br>
-							Hosting static webpage code on the cloud and
-							WorldWideWeb.
-						</p>
-					</div>
+							<p>
+								Creation of static pages like Landing Page,
+								Online Portofolio, Dynamic and API-driven web
+								application. <br></br>
+								Turning Website Designs and Mockups into Code.
+							</p>
+						</div>
+					</Fade>
+
+					<Fade bottom>
+						<div className="col-12 col-sm-6">
+							<FontAwesomeIcon
+								icon={faCloudUploadAlt}
+								size="2x"
+								className="my-color-2"
+							/>
+							<h5 className="mt-2 p-2 my-color-2">
+								Web Deployment
+							</h5>
+							<p>
+								Deploying web development codes to the cloud
+								platforms like GitHub, Netlify and Heroku.
+								<br></br>
+								Hosting static webpage code on the cloud and
+								WorldWideWeb.
+							</p>
+						</div>
+					</Fade>
 				</div>
 
 				<div className="row mt-2">
-					<div className="col-12 text-center">
-						<h4 className="my-color-2 font-weight-bold">
-							Send Message
-						</h4>
-					</div>
-					<div className="col-12 text-center">
-						<FormEmail />
-					</div>
+					<Fade bottom>
+						<div className="col-12 text-center">
+							<h4 className="my-color-2 font-weight-bold">
+								Send Message
+							</h4>
+						</div>
+						<div className="col-12 text-center">
+							<FormEmail />
+						</div>
+					</Fade>
 				</div>
 			</div>
 		</div>
