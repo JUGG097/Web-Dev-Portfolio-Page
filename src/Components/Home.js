@@ -33,7 +33,7 @@ function Home() {
 						</div>
 
 						<div className="col-12 col-sm-8 text-center my-auto">
-							<h2 className="display-5 my-color">
+							<h2 className="display-5 my-color-2">
 								Adeoluwa Adeboye
 							</h2>
 							<p className="lead">
@@ -87,7 +87,7 @@ function Home() {
 						<FontAwesomeIcon
 							icon={faLaptopCode}
 							size="2x"
-							className="my-color"
+							className="my-color-2"
 						/>
 						<h5 className="mt-2 p-2">Web Development</h5>
 
@@ -102,7 +102,7 @@ function Home() {
 						<FontAwesomeIcon
 							icon={faCloudUploadAlt}
 							size="2x"
-							className="my-color"
+							className="my-color-2"
 						/>
 						<h5 className="mt-2 p-2">Web Deployment</h5>
 						<p>
@@ -117,7 +117,7 @@ function Home() {
 
 				<div className="row mt-2">
 					<div className="col-12 text-center">
-						<h4 className="my-color font-weight-bold">
+						<h4 className="my-color-2 font-weight-bold">
 							Send Message
 						</h4>
 					</div>

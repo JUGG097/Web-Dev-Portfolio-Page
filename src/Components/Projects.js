@@ -13,7 +13,7 @@ function Projects() {
 				}}
 			>
 				<div className="container mt-3">
-					<h2 className="display-5 my-color">My Projects</h2>
+					<h2 className="display-5 my-color-2">My Projects</h2>
 					<p className="lead">
 						Projects related to Web Development and Deployment
 					</p>
@@ -32,12 +32,12 @@ function Projects() {
 					<div className="col-12 col-sm-4 text-center">
 						<img
 							className="img-thumbnail"
-							src="https://via.placeholder.com/250"
+							src="img/Angelo-Jersey.png"
 							alt="PlaceHolder"
 						></img>
 					</div>
 					<div className="col-12 col-sm-8 text-center mt-2 my-auto">
-						<h4 className="my-color font-weight-bold">
+						<h4 className="my-color-2 font-weight-bold">
 							Angelo Jerseys
 						</h4>
 						<p>
@@ -64,7 +64,7 @@ function Projects() {
 
 				<div className="row mt-3">
 					<div className="col-12 order-last col-sm-8 text-center mt-2 my-auto">
-						<h4 className="my-color font-weight-bold">
+						<h4 className="my-color-2 font-weight-bold">
 							Nigeria Covid-19 Cases Dashboard
 						</h4>
 						<p>
@@ -90,7 +90,7 @@ function Projects() {
 					<div className="col-12 col-sm-4 text-center order-first order-sm-last">
 						<img
 							className="img-thumbnail"
-							src="https://via.placeholder.com/250"
+							src="img/Covid-Tracker.png"
 							alt="PlaceHolder"
 						></img>
 					</div>
@@ -100,12 +100,12 @@ function Projects() {
 					<div className="col-12 col-sm-4 text-center">
 						<img
 							className="img-thumbnail"
-							src="https://via.placeholder.com/250"
+							src="img/Web-Calculator.png"
 							alt="PlaceHolder"
 						></img>
 					</div>
 					<div className="col-12 col-sm-8 text-center mt-2 my-auto">
-						<h4 className="my-color font-weight-bold">
+						<h4 className="my-color-2 font-weight-bold">
 							Simple Web Calculator
 						</h4>
 						<p>

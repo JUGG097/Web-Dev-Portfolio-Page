@@ -4,12 +4,13 @@
 
 .navbar .navbar-brand {
   
-  color: #c39793;
+  color: #FFFFFF;
   /* color: #FAC05E potential option*/
 }
 
 .navbar .nav-link{
-  color: #c39793;
+  /* color: #c39793; */
+  color: #FFFFFF
 }
 
 .navbar .nav-link:hover {
@@ -28,11 +29,12 @@
 }
 
 .footer h5{
-  color:  #c39793;
+  /* color:  #c39793; */
+  color: #FFFFFF
 }
 
 .footer p{
-  color: black;
+  color: #DDCECE;
 }
 
 .footer p:hover {
@@ -41,5 +43,9 @@
 .my-color {
   color: #966367;
  
+}
+
+.my-color-2 {
+  color: #4D0C17;
 }
 
