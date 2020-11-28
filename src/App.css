@@ -8,9 +8,13 @@
   /* color: #FAC05E potential option*/
 }
 
+.navbar .navbar-brand:hover {
+  opacity: 0.5;
+}
+
 .navbar .nav-link{
   /* color: #c39793; */
-  color: #FFFFFF
+  color: #DDCECE;
 }
 
 .navbar .nav-link:hover {
@@ -40,12 +44,29 @@
 .footer p:hover {
   opacity: 0.6;
 }
-.my-color {
-  color: #966367;
- 
-}
 
 .my-color-2 {
   color: #4D0C17;
 }
 
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 500ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 500ms ease-out;
+}

@@ -89,7 +89,7 @@ function Home() {
 							size="2x"
 							className="my-color-2"
 						/>
-						<h5 className="mt-2 p-2">Web Development</h5>
+						<h5 className="mt-2 p-2 my-color-2">Web Development</h5>
 
 						<p>
 							Creation of static pages like Landing Page, Online
@@ -104,7 +104,7 @@ function Home() {
 							size="2x"
 							className="my-color-2"
 						/>
-						<h5 className="mt-2 p-2">Web Deployment</h5>
+						<h5 className="mt-2 p-2 my-color-2">Web Deployment</h5>
 						<p>
 							Deploying web development codes to the cloud
 							platforms like GitHub, Netlify and Heroku.
