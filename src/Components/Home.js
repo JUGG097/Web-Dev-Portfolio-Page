@@ -140,7 +140,7 @@ function Home() {
 								Send Message
 							</h4>
 						</div>
-						<div className="col-12 text-center">
+						<div className="col-12">
 							<FormEmail />
 						</div>
 					</Fade>
